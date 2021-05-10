@@ -1,5 +1,13 @@
-# proyecto2021
-Estructura de Proyecto Lab de Compu II - 2021
+# Tiro Parabolico
+Esta pagina trata sobre el tema de fisica tiro parabolico.......
+
+## Autores
+* Arguello, Clara
+* Fernandez, Pedro
+
+## Tecnologias Usadas
+* HTML5
+* CSS3
 
 ### Requisitos del Primer Parcial
 - [x] El proyecto debe estar subido al repositorio adecuado "Proyecto2021-ApellidoAlumno1-ApellidoAlumno2"
