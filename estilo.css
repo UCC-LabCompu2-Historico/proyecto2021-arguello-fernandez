@@ -1,3 +1,78 @@
 h1{
     color: mediumvioletred;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#trayectoria {
+    position: absolute;
+    right: 5%;
+}
+#nepe {
+    text-align: left;
+    font-size: 40px;
+    padding-right: 500px;
+}
+
+footer {
+    text-align: center;
+    background-color: lightskyblue;
+    color: black;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:40px;
+}
+#formula1 {
+    border: 1px solid black;
+    position: absolute;
+
+    width: 450px;
+    left: 10px;
+    /*top: 400px;
+    position: absolute;*/
+
+
+}
+#formula2 {
+    border: 1px solid black;
+
+    width: 375px;
+    /*left: 400px;*/
+    /*top: 400px;
+    position: absolute;*/
+
+
+
+    position: absolute;
+    left: 500px;
+
+}
+#formula3 {
+    border: 1px solid black;
+
+    width: 400px;
+    /*left: 400px;*/
+    /*top: 400px;
+    position: absolute;*/
+
+    position: absolute;
+    right: 10px;
+}
