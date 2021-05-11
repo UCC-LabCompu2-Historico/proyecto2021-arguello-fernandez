@@ -1,7 +1,18 @@
-h1{
-    color: mediumvioletred;
+body {
+    background: url("Imagenes/fondo.jpg");
+    background-size: 1300px;
 }
-
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-left: 30px;
+}
+h3{
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -25,10 +36,13 @@ li a {
     position: absolute;
     right: 5%;
 }
-#nepe {
+#inicio {
     text-align: left;
-    font-size: 40px;
-    padding-right: 500px;
+    font-size: 30px;
+    padding-right: 400px;
+    color: white;
+    margin-left: 30px;
+    line-height: 50px;
 }
 
 footer {
