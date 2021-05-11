@@ -43,17 +43,18 @@ footer {
 #formula1 {
     border: 1px solid black;
     position: absolute;
-
+    height: 250px;
     width: 450px;
     left: 10px;
     /*top: 400px;
     position: absolute;*/
+    text-align: center;
 
 
 }
 #formula2 {
     border: 1px solid black;
-
+    height: 250px;
     width: 375px;
     /*left: 400px;*/
     /*top: 400px;
@@ -62,12 +63,13 @@ footer {
 
 
     position: absolute;
-    left: 500px;
+    left: 480px;
+    text-align: center;
 
 }
 #formula3 {
     border: 1px solid black;
-
+    height: 250px;
     width: 400px;
     /*left: 400px;*/
     /*top: 400px;
@@ -75,4 +77,10 @@ footer {
 
     position: absolute;
     right: 10px;
+    text-align: center;
+}
+
+#simulacion {
+    width: 1250px;
+    height: 600px;
 }
