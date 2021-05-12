@@ -15,6 +15,8 @@ Cada una de estas partes cuenta con botones para moverse de una a la otra.
 
 ## Link gh-pages
 
+link: [Tiro Parabolico] (https://ucc-labcompu2.github.io/proyecto2021-arguello-fernandez/index.html)
+
 ## Tecnologias Usadas
 * HTML5
 * CSS3
