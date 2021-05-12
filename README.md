@@ -1,11 +1,17 @@
 # Tiro Parabolico
-Esta pagina trata sobre el tema de fisica tiro parabolico.......
+Esta pagina trata sobre el tema de Fisica I de la carrera de Ingenieria de la UCC tiro parabolico, tambien conocido como movimiento parabolico el cual es el movimiento realizado por cualquier objeto cuya trayectoria describe una
+parábola
 
 ## Autores
 * Arguello, Clara
 * Fernandez, Pedro
 
 ## Contenido de la Pagina
+La pagina se divide en 3 partes:
+1) Se da una breve introduccion sobre el tema de Fisica I tiro parabolico.
+2) Se presentan las formulas del tiro parabolico para calcular el alcance, altura maxima y tiempo.
+3) una simulacion de tiro parabolico en el que el usuario puede experimentar son el lanzamiento de un proyectil.
+Cada una de estas partes cuenta con botones para moverse de una a la otra.
 
 ## Link gh-pages
 
@@ -19,21 +25,21 @@ Esta pagina trata sobre el tema de fisica tiro parabolico.......
 - [x] En el ```<head></head>``` incluir las etiquetas ```<meta>``` detallando: autor, descripcion y palabras clave
 - [x] Emplear al menos 3 etiquetas semánticas
 - [x] Emplear ```<header></header>```. En el contenido de la cabecera debe haber un título ```<h1></h1>```, puede tener color de fondo, algún logotipo, etc.
-- [ ] Modificar el Readme.MD y colocar información del proyecto/página (mínimamente: título del proyecto, autores, link de gh-pages, contenido de la página,  listado de tecnologías usadas, etc)
+- [x] Modificar el Readme.MD y colocar información del proyecto/página (mínimamente: título del proyecto, autores, link de gh-pages, contenido de la página,  listado de tecnologías usadas, etc)
 - [ ] Publicar la Web empleando GitHubPages
-- [ ] La estructura de la página debe estar definida con ```<div></div>```
-- [ ] Debe contener al menos 3 elementos de tipo ```<input>``` o ```<select>``` ó ```<button>``` que le permitan al usuario ingresar valores para poder realizar un cálculo de un ejercicio.
+- [x] La estructura de la página debe estar definida con ```<div></div>```
+- [x] Debe contener al menos 3 elementos de tipo ```<input>``` o ```<select>``` ó ```<button>``` que le permitan al usuario ingresar valores para poder realizar un cálculo de un ejercicio.
 - [x] Debe haber por lo menos una etiqueta ```<img>``` en la página.
-- [ ] La estructura del proyecto debe ser adecuada (crear una carpeta para las imágenes, otra para los sketch/mockups). Es importante que contenga SKETCH y MOCKUP
+- [x] La estructura del proyecto debe ser adecuada (crear una carpeta para las imágenes, otra para los sketch/mockups). Es importante que contenga SKETCH y MOCKUP
 - [ ] Debe contener un ```<canvas>```, para que posteriormente (en la 2da etapa) se grafique alguna imagen representativa del ejercicio. (el desarrollo del gráfico se realizará cuando se vea la unidad de “Orientación a Eventos”)
 - [ ] Identar correctamente el código (en Webstorm Ctrl+Alt+L)
 - [x] No espaciar con excesivos ```<br>```. Utilizar márgenes, paddings, etc.
 - [x] No utilizar etiquetas deprecadas.
 - [x] El estilo de los elementos debe establecerse en un archivo CSS (prohibido poner el atributo style a los elementos o emplear estilos incrustados).
-- [ ] El CSS debe contar mínimo con un tipo de cada forma (por Tag, por ID y por clase).
+- [x] El CSS debe contar mínimo con un tipo de cada forma (por Tag, por ID y por clase).
 - [ ] El código debe estar pusheado en el repositorio (emplear gh-pages), y no debe haber diferencias entre **main** y **gh-pages** (verificar de realizar el Merge).
 - [ ] No debe haber errores presentes (realizar *Code* > *Inspect Code* para verificar que no haya errores)
-- [ ] Todas las etiquetas deben estar correctamente cerradas
+- [x] Todas las etiquetas deben estar correctamente cerradas
 - [x] Los ids de los elementos deben ser unívocos
 - [ ] El repositorio no debe contener archivos innecesarios (no debe contener .idea o .vsc, en todo caso emplear **.gitignore**)
 

@@ -15,6 +15,7 @@
     <h1>Tiro Parabolico</h1>
 </header>
 <section>
+    <div id="simulacion">
     <h3>
         SIMULACION
     </h3>
@@ -24,17 +25,21 @@
     <p id="creditos">
         Simulacion extraida de PHET Interactive Simulations de la Universidad de Colorado <a href="https://phet.colorado.edu/es/simulation/projectile-motion">https://phet.colorado.edu/es/simulation/projectile-motion</a>
     </p>
+    <div class="botones">
+        <input class="boton" id="botonf" type="button" value="INICIO" onclick="document.location='index.html'">
+        <input class="boton" id="botons" type="button" value="FORMULAS" onclick="document.location='formulas.html'">
+    </div>
+    </div>
+    <canvas id="img_tiros">
+        El navegador no soporta canvas
+    </canvas>
 
 </section>
-<canvas id="img_tiros">
-    El navegador no soporta canvas
-</canvas>
-
 <footer>
-    <div id="titulofooter">
+    <div class="titulofooter">
         Laboratorio de Computacion II
     </div>
-    <div id="autores">
+    <div class="autores">
         Autores:<br>
         Arguello, Clara<br>
         Fernandez, Pedro
