@@ -13,28 +13,10 @@ h3{
     color: white;
     font-family: sans-serif;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 #trayectoria {
     position: absolute;
-    right: 5%;
+    right: 4%;
+    bottom: 5%;
 }
 #inicio {
     text-align: left;
@@ -45,24 +27,43 @@ li a {
     line-height: 50px;
 }
 
+formulas {
+    text-align: left;
+    font-size: 30px;
+    padding-right: 400px;
+    color: white;
+    margin-left: 30px;
+    line-height: 50px;
+}
+
 footer {
-    text-align: center;
-    background-color: lightskyblue;
+    background-color: rgba(80, 106, 133, 0.7);
     color: black;
-    position:fixed;
     bottom:0;
     width:100%;
-    height:40px;
+    height:120px;
 }
-#formula1 {
+#ucc{
+    width: 200px;
+    height: 500px;
+    float: left;
+}
+#titulofooter{
+    font-family: "Arial Black";
+    color: white;
+    text-align: center;
+}
+#autores{
+    font-family: "Bodoni 72";
+    color: white;
+    text-align: center;
+}
+/*#formula1 {
     border: 1px solid black;
     position: absolute;
     height: 250px;
     width: 450px;
-    left: 10px;
-    /*top: 400px;
-    position: absolute;*/
-    text-align: center;
+    left: 90px;
 
 
 }
@@ -72,12 +73,8 @@ footer {
     width: 375px;
     /*left: 400px;*/
     /*top: 400px;
-    position: absolute;*/
-
-
-
-    position: absolute;
-    left: 480px;
+    position: absolute;position: absolute;
+    left: 470px;
     text-align: center;
 
 }
@@ -87,12 +84,10 @@ footer {
     width: 400px;
     /*left: 400px;*/
     /*top: 400px;
-    position: absolute;*/
-
-    position: absolute;
+    position: absolute;position: absolute;
     right: 10px;
     text-align: center;
-}
+}*/
 
 #simulacion {
     width: 100%;
@@ -100,4 +95,45 @@ footer {
 }
 #creditos {
     text-align: center;
+}
+#imgformulas {
+    height: 130px;
+    width: 250px;
+}
+#faltmax {
+    height: 150px;
+    width: 300px;
+}
+#falcance {
+    height: 130px;
+    width: 250px;
+}
+#ftiempovuelo {
+    height: 130px;
+    width: 250px;
+}
+.boton {
+
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+
+}
+#botonf{
+    background-color: limegreen;
+    box-shadow: green;
+}
+#botons{
+    background-color: orangered;
+    box-shadow: darkred;
+}
+#botones{
+padding-bottom: 20px;
+}
+#botones2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
