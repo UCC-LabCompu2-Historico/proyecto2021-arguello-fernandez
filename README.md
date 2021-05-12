@@ -15,7 +15,7 @@ Cada una de estas partes cuenta con botones para moverse de una a la otra.
 
 ## Link gh-pages
 
-link: [Tiro Parabolico] (https://ucc-labcompu2.github.io/proyecto2021-arguello-fernandez/index.html)
+link: [Tiro Parabolico](https://ucc-labcompu2.github.io/proyecto2021-arguello-fernandez/index.html)
 
 ## Tecnologias Usadas
 * HTML5
@@ -28,7 +28,7 @@ link: [Tiro Parabolico] (https://ucc-labcompu2.github.io/proyecto2021-arguello-f
 - [x] Emplear al menos 3 etiquetas semánticas
 - [x] Emplear ```<header></header>```. En el contenido de la cabecera debe haber un título ```<h1></h1>```, puede tener color de fondo, algún logotipo, etc.
 - [x] Modificar el Readme.MD y colocar información del proyecto/página (mínimamente: título del proyecto, autores, link de gh-pages, contenido de la página,  listado de tecnologías usadas, etc)
-- [ ] Publicar la Web empleando GitHubPages
+- [x] Publicar la Web empleando GitHubPages
 - [x] La estructura de la página debe estar definida con ```<div></div>```
 - [x] Debe contener al menos 3 elementos de tipo ```<input>``` o ```<select>``` ó ```<button>``` que le permitan al usuario ingresar valores para poder realizar un cálculo de un ejercicio.
 - [x] Debe haber por lo menos una etiqueta ```<img>``` en la página.
@@ -39,7 +39,7 @@ link: [Tiro Parabolico] (https://ucc-labcompu2.github.io/proyecto2021-arguello-f
 - [x] No utilizar etiquetas deprecadas.
 - [x] El estilo de los elementos debe establecerse en un archivo CSS (prohibido poner el atributo style a los elementos o emplear estilos incrustados).
 - [x] El CSS debe contar mínimo con un tipo de cada forma (por Tag, por ID y por clase).
-- [ ] El código debe estar pusheado en el repositorio (emplear gh-pages), y no debe haber diferencias entre **main** y **gh-pages** (verificar de realizar el Merge).
+- [x] El código debe estar pusheado en el repositorio (emplear gh-pages), y no debe haber diferencias entre **main** y **gh-pages** (verificar de realizar el Merge).
 - [x] No debe haber errores presentes (realizar *Code* > *Inspect Code* para verificar que no haya errores)
 - [x] Todas las etiquetas deben estar correctamente cerradas
 - [x] Los ids de los elementos deben ser unívocos
