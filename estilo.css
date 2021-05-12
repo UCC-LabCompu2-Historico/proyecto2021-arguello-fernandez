@@ -49,59 +49,24 @@ footer {
     color: white;
     text-align: center;
 }
-/*#formula1 {
-    border: 1px solid black;
-    position: absolute;
-    height: 250px;
-    width: 450px;
+#formula1 {
     left: 90px;
-
-
 }
-#formula2 {
-    border: 1px solid black;
-    height: 250px;
-    width: 375px;
-    /*left: 400px;*/
-    /*top: 400px;
-    position: absolute;position: absolute;
-    left: 470px;
-    text-align: center;
-
-}
-#formula3 {
-    border: 1px solid black;
-    height: 250px;
-    width: 400px;
-    /*left: 400px;*/
-    /*top: 400px;
-    position: absolute;position: absolute;
-    right: 10px;
-    text-align: center;
-}*/
 
 #simulacion {
     width: 100%;
     height: 550px;
 }
 #creditos {
+    margin-top: 0;
     text-align: center;
+    margin-bottom: 0;
 }
-#imgformulas {
-    height: 130px;
-    width: 250px;
-}
-#faltmax {
-    height: 150px;
+.claseformula {
+    height: 180px;
     width: 300px;
-}
-#falcance {
-    height: 130px;
-    width: 250px;
-}
-#ftiempovuelo {
-    height: 130px;
-    width: 250px;
+    padding-left: 80px;
+    padding-bottom: 100px;
 }
 .boton {
 

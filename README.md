@@ -31,7 +31,7 @@ Cada una de estas partes cuenta con botones para moverse de una a la otra.
 - [x] Debe contener al menos 3 elementos de tipo ```<input>``` o ```<select>``` ó ```<button>``` que le permitan al usuario ingresar valores para poder realizar un cálculo de un ejercicio.
 - [x] Debe haber por lo menos una etiqueta ```<img>``` en la página.
 - [x] La estructura del proyecto debe ser adecuada (crear una carpeta para las imágenes, otra para los sketch/mockups). Es importante que contenga SKETCH y MOCKUP
-- [ ] Debe contener un ```<canvas>```, para que posteriormente (en la 2da etapa) se grafique alguna imagen representativa del ejercicio. (el desarrollo del gráfico se realizará cuando se vea la unidad de “Orientación a Eventos”)
+- [x] Debe contener un ```<canvas>```, para que posteriormente (en la 2da etapa) se grafique alguna imagen representativa del ejercicio. (el desarrollo del gráfico se realizará cuando se vea la unidad de “Orientación a Eventos”)
 - [ ] Identar correctamente el código (en Webstorm Ctrl+Alt+L)
 - [x] No espaciar con excesivos ```<br>```. Utilizar márgenes, paddings, etc.
 - [x] No utilizar etiquetas deprecadas.
@@ -41,13 +41,13 @@ Cada una de estas partes cuenta con botones para moverse de una a la otra.
 - [ ] No debe haber errores presentes (realizar *Code* > *Inspect Code* para verificar que no haya errores)
 - [x] Todas las etiquetas deben estar correctamente cerradas
 - [x] Los ids de los elementos deben ser unívocos
-- [ ] El repositorio no debe contener archivos innecesarios (no debe contener .idea o .vsc, en todo caso emplear **.gitignore**)
+- [x] El repositorio no debe contener archivos innecesarios (no debe contener .idea o .vsc, en todo caso emplear **.gitignore**)
 
 Accesibilidad:
-- [ ] Toda imagen debe tener su etiqueta alt
+- [x] Toda imagen debe tener su etiqueta alt
 - [ ] Todo ```<input>``` o ```<select>``` debe tener su ```<label>```
 - [ ] Los labels deben contener el atributo **for** (el for debe contener el id del input al cual se referencia) 
-- [ ] Si hay una tabla en la página, debe contener ```<caption></caption>```
+- [x] Si hay una tabla en la página, debe contener ```<caption></caption>```
 
 ### Requisitos del Segundo Parcial
 - [ ] Presentación a tiempo del código mediante github (se corregirá el último commit subido a github antes del miercoles)
