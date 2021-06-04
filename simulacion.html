@@ -24,22 +24,26 @@
             <form>
                 <div class="datos">
                     <label for="input_angulo">Angulo:</label>
-                    <input type="number" class="inputs" id="input_angulo" aria-describedby="angulo" placeholder="Ingrese el Angulo">
+                    <input type="number" class="inputs" id="input_angulo" placeholder="Ingrese el Angulo">
                     <label for="input_velocidad">Velocidad:</label>
-                    <input type="number" class="inputs" id="input_velocidad" aria-describedby="velocidad" placeholder="Ingrese la Velocidad">
+                    <input type="number" class="inputs" id="input_velocidad" placeholder="Ingrese la Velocidad">
                 </div>
                 <div class="datos">
-                <button type="submit" id="calcular">CALCULAR!</button>
+                <button type="button" id="calcular" onclick="calculo()">CALCULAR!</button>
                 </div>
             </form>
         </div>
         <canvas id="canvas">
             El navegador no soporta canvas...
         </canvas>
-        <p id="creditos">
-            Simulacion extraida de PHET Interactive Simulations de la Universidad de Colorado <a
-                href="https://phet.colorado.edu/es/simulation/projectile-motion">https://phet.colorado.edu/es/simulation/projectile-motion</a>
-        </p>
+        <div class="datos">
+            <label for="altura">Altura Maxima:</label>
+            <input type="number" class="inputs" id="altura" disabled>
+            <label for="alcance">Alcance Maximo:</label>
+            <input type="number" class="inputs" id="alcance" disabled>
+            <label for="tiempo">Tiempo:</label>
+            <input type="number" class="inputs" id="tiempo" disabled>
+        </div>
         <div class="botones">
             <input class="boton" id="botonf" type="button" value="INICIO" onclick="document.location='index.html'">
             <input class="boton" id="botons" type="button" value="FORMULAS" onclick="document.location='formulas.html'">
