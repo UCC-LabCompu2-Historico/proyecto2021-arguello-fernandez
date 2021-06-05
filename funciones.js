@@ -41,16 +41,16 @@ function simulacion(alcance, altura, velocidad, angulo, tiempo) {
 
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
-    var vX = velocidad*Math.cos(angulo*Math.PI/180);
+    var x = velocidad*Math.cos(angulo*Math.PI/180);
     //var xMax = canvas.width;
-    var vY = velocidad*Math.sin(angulo*Math.PI/180);
+    var y = velocidad*Math.sin(angulo*Math.PI/180);
     //var yMax = canvas.height;
     //var margen = 10;
 
     canvas.width = canvas.width;
     ctx.beginPath();
     ctx.fillStyle = "#000000";
-    ctx.arc(vX*t,400 - (vY*t - 0.5 * 9.8 * (Math.pow(t,2))),20,0,2*Math.PI);
+    ctx.arc(x*t,400 - (y*t - 0.5 * 9.8 * (Math.pow(t,2))),20,0,2*Math.PI);
     //ctx.arc(vX*t,300-((vY*t)-(9.8*(t**2)/2)),20,0,2*Math.PI);
     //ctx.arc(0+margen,yMax-20-margen,20,0,2*Math.PI);
     ctx.closePath();
