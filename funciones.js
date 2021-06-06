@@ -48,13 +48,18 @@ function simulacion(alcance, altura, velocidad, angulo, tiempo) {
     //var margen = 10;
 
     canvas.width = canvas.width;
+
+    var img = new Image();
+    img.src = "Imagenes/pelota.png";
+    //img.onload = function () {
+        //ctx.drawImage(img, x*t, 400 - (y*t - 0.5 * 9.8 * (Math.pow(t,2))))
+    //}
     ctx.beginPath();
-    ctx.fillStyle = "#000000";
-    ctx.arc(x*t,400 - (y*t - 0.5 * 9.8 * (Math.pow(t,2))),20,0,2*Math.PI);
-    //ctx.arc(vX*t,300-((vY*t)-(9.8*(t**2)/2)),20,0,2*Math.PI);
-    //ctx.arc(0+margen,yMax-20-margen,20,0,2*Math.PI);
+    //ctx.fillStyle = "#000000";
+    //ctx.arc(x*t,400 - (y*t - 0.5 * 9.8 * (Math.pow(t,2))),20,0,2*
+    ctx.drawImage(img, 125 + (x*t), 400 - (y*t - 0.5 * 9.8 * (Math.pow(t,2))))
     ctx.closePath();
-    ctx.fill();
+    //ctx.fill();
 
     //tmax = tiempo;  if (t < tmax) {
     //t = t + tmax/400;
