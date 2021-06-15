@@ -1,5 +1,5 @@
-# Tiro Parabolico
-Esta pagina trata sobre el tema de Fisica I de la carrera de Ingenieria de la UCC tiro parabolico, tambien conocido como movimiento parabolico el cual es el movimiento realizado por cualquier objeto cuya trayectoria describe una
+# Tiro Parabólico
+Esta pagina trata sobre el tema de Fisica I de la carrera de Ingenieria de la UCC tiro parabólico, tambien conocido como movimiento parabólico el cual es el movimiento realizado por cualquier objeto cuya trayectoria describe una
 parábola
 
 ## Autores
@@ -8,18 +8,19 @@ parábola
 
 ## Contenido de la Pagina
 La pagina se divide en 3 partes:
-1) Se da una breve introduccion sobre el tema de Fisica I tiro parabolico.
-2) Se presentan las formulas del tiro parabolico para calcular el alcance, altura maxima y tiempo.
-3) una simulacion de tiro parabolico en el que el usuario puede experimentar son el lanzamiento de un proyectil.
+1) Se da una breve introduccion sobre el tema de Fisica I tiro parabólico.
+2) Se presentan las formulas del tiro parabolico para calcular el alcance, altura máxima y tiempo.
+3) una simulación de tiro parabólico en el que el usuario puede experimentar son el lanzamiento de un proyectil.
 Cada una de estas partes cuenta con botones para moverse de una a la otra.
 
 ## Link gh-pages
 
-link: [Tiro Parabolico](https://ucc-labcompu2.github.io/proyecto2021-arguello-fernandez/index.html)
+link: [Tiro Parabólico](https://ucc-labcompu2.github.io/proyecto2021-arguello-fernandez/index.html)
 
 ## Tecnologias Usadas
 * HTML5
 * CSS3
+* JAVASCRIPT
 
 ### Requisitos del Primer Parcial
 - [x] El proyecto debe estar subido al repositorio adecuado "Proyecto2021-ApellidoAlumno1-ApellidoAlumno2"
