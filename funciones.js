@@ -9,7 +9,8 @@ function calculo() {
         alert("Ingrese ambos valores!");
     }
     if ((document.getElementById('input_velocidad').value <= 0) || (document.getElementById('input_angulo').value <= 0) || (document.getElementById('input_angulo').value >= 91)) {
-        alert("La velocidad o el ángulo no pueden ser negativos o iguales a cero, ni el angulo mayor a 90!");
+        alert("La velocidad o el ángulo no pueden ser negativos o iguales a cero, ni el ángulo mayor a 90!");
+        return;
     }
     var velocidad = document.getElementById('input_velocidad').value;
     var angulo = document.getElementById('input_angulo').value;
