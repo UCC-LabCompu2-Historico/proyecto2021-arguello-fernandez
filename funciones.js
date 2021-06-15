@@ -1,9 +1,7 @@
 /**
- * Calculo de altura maxima, alcance maximo y tiempo de vuelo
+ * Calculo de altura maxima, alcance maximo y tiempo de vuelo.
  * @method calculo
- * @param {string} id - El id de metros yardas pulagadas
- * @param {number} valor - El valor de los inputs metros yardas pulgadas
- * @return
+ * @return altura,alcance,tiempo
  */
 
 function calculo() {
@@ -21,52 +19,42 @@ function calculo() {
     var tiempo = (((2*velocidad)*(Math.sin(angulo*Math.PI/180)))/(9.8)).toFixed(2);
     document.getElementById("tiempo").value = tiempo;
 
-    simulacion(alcance, altura, velocidad, angulo, tiempo);
+    simulacion(velocidad, angulo, tiempo);
 
 }
 
 /**
- * Calculo de altura maxima, alcance maximo y tiempo de vuelo
- * @method calculo
- * @param {string} id - El id de metros yardas pulagadas
- * @param {number} valor - El valor de los inputs metros yardas pulgadas
- * @return
+ * Calcula los valores de x e y para luego realizar la simulacion.
+ * @method simulacion
+ * @param {number} velocidad - El valor de la velocidad de la funcion anterior.
+ * @param {number} angulo - El valor del angulo de la funcion anterior.
+ * @param {number} tiempo - El valor del tiempo de la funcion anterior.
+ * @return x,y
  */
 
 var t=0;
 
 
-function simulacion(alcance, altura, velocidad, angulo, tiempo) {
+function simulacion(velocidad, angulo, tiempo) {
 
 
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
     var x = velocidad*Math.cos(angulo*Math.PI/180);
-    //var xMax = canvas.width;
     var y = velocidad*Math.sin(angulo*Math.PI/180);
-    //var yMax = canvas.height;
-    //var margen = 10;
 
     canvas.width = canvas.width;
 
     var img = new Image();
     img.src = "Imagenes/pelota.png";
-    //img.onload = function () {
-        //ctx.drawImage(img, x*t, 400 - (y*t - 0.5 * 9.8 * (Math.pow(t,2))))
-    //}
     ctx.beginPath();
-    //ctx.fillStyle = "#000000";
-    //ctx.arc(x*t,400 - (y*t - 0.5 * 9.8 * (Math.pow(t,2))),20,0,2*
-    ctx.drawImage(img, 125 + (x*t), 400 - (y*t - 0.5 * 9.8 * (Math.pow(t,2))))
+    ctx.drawImage(img, (125 + (x*t)), 400 - (y*t - 0.5 * 9.8 * (Math.pow(t,2))))
     ctx.closePath();
-    //ctx.fill();
 
-    //tmax = tiempo;  if (t < tmax) {
-    //t = t + tmax/400;
     t = t + 0.05;
 
     if (t < tiempo) {
-        setTimeout(function () {simulacion(alcance, altura, velocidad, angulo, tiempo);}, 50);
+        setTimeout(function () {simulacion(velocidad, angulo, tiempo);}, 50);
     } else {
         t=0;
     }

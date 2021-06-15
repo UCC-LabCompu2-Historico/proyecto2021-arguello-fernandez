@@ -40,12 +40,12 @@ footer {
     padding-top: 20px;
 }
 .titulofooter{
-    font-family: "Arial Black";
+    font-family: "Arial Black", Serif;
     color: white;
     text-align: center;
 }
 .autores{
-    font-family: "Bodoni 72";
+    font-family: "Bodoni 72", "Bodoni MT", Serif;
     color: white;
     text-align: center;
 }
@@ -68,6 +68,7 @@ footer {
     border: none;
     border-radius: 7px;
     cursor: pointer;
+    background-color: white;
 }
 
 #canvas {
