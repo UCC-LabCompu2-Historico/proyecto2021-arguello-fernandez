@@ -20,7 +20,7 @@ function calculo() {
     document.getElementById("altura").value = altura;
 
 
-    var alcance = (((Math.pow(velocidad,2))*(Math.sin(angulo*Math.PI/180)))/(9.8)).toFixed(2);
+    var alcance = (((Math.pow(velocidad,2))*(Math.sin((angulo*Math.PI/180)*2)))/(9.8)).toFixed(2);
     document.getElementById("alcance").value = alcance;
 
     var tiempo = (((2*velocidad)*(Math.sin(angulo*Math.PI/180)))/(9.8)).toFixed(2);
