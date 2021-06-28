@@ -5,11 +5,24 @@
  */
 
 function calculo() {
-    if ((document.getElementById('input_velocidad').value == "") || (document.getElementById('input_angulo').value == "")) {
-        alert("Ingrese ambos valores!");
+    if (document.getElementById('input_velocidad').value == "") {
+        alert("Ingrese una velocidad valida!");
+        document.getElementById('input_velocidad').value = "";
+        return;
     }
-    if ((document.getElementById('input_velocidad').value <= 0) || (document.getElementById('input_angulo').value <= 0) || (document.getElementById('input_angulo').value >= 91)) {
-        alert("La velocidad o el ángulo no pueden ser negativos o iguales a cero, ni el ángulo mayor a 90!");
+    if (document.getElementById('input_angulo').value == "") {
+        alert("Ingrese un angulo valido!");
+        document.getElementById('input_angulo').value = "";
+        return;
+    }
+    if (document.getElementById('input_velocidad').value <= 0) {
+        alert("La velocidad no puede ser negativa o igual a cero!");
+        document.getElementById('input_velocidad').value = "";
+        return;
+    }
+    if ((document.getElementById('input_angulo').value <= 0) || (document.getElementById('input_angulo').value >= 91)) {
+        alert("El ángulo no pueden ser negativo, igual a cero o mayor a 90!");
+        document.getElementById('input_angulo').value = "";
         return;
     }
     var velocidad = document.getElementById('input_velocidad').value;
