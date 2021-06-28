@@ -63,7 +63,7 @@ footer {
     border: none;
     text-align: center;
 }
-#calcular {
+.calcular {
     padding: 10px 16px;
     border: none;
     border-radius: 7px;

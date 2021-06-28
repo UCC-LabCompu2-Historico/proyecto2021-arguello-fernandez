@@ -15,15 +15,22 @@ function calculo() {
     var velocidad = document.getElementById('input_velocidad').value;
     var angulo = document.getElementById('input_angulo').value;
 
+    if (document.getElementById('unidadvelocidad').value == "km/h") {
+        velocidad=velocidad/3.6;
+    }
 
-    var altura = (((Math.pow(velocidad,2))*(Math.pow(Math.sin(angulo*Math.PI/180),2)))/(2*9.8)).toFixed(2);
+    if (document.getElementById('unidadangulo').value == "Grad") {
+        angulo=angulo*Math.PI/180;
+    }
+
+    var altura = (((Math.pow(velocidad,2))*(Math.pow(Math.sin(angulo),2)))/(2*9.8)).toFixed(2);
     document.getElementById("altura").value = altura;
 
 
-    var alcance = (((Math.pow(velocidad,2))*(Math.sin((angulo*Math.PI/180)*2)))/(9.8)).toFixed(2);
+    var alcance = (((Math.pow(velocidad,2))*(Math.sin((angulo)*2)))/(9.8)).toFixed(2);
     document.getElementById("alcance").value = alcance;
 
-    var tiempo = (((2*velocidad)*(Math.sin(angulo*Math.PI/180)))/(9.8)).toFixed(2);
+    var tiempo = (((2*velocidad)*(Math.sin(angulo)))/(9.8)).toFixed(2);
     document.getElementById("tiempo").value = tiempo;
 
     simulacion(velocidad, angulo, tiempo);
@@ -47,8 +54,8 @@ function simulacion(velocidad, angulo, tiempo) {
 
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
-    var x = velocidad*Math.cos(angulo*Math.PI/180);
-    var y = velocidad*Math.sin(angulo*Math.PI/180);
+    var x = velocidad*Math.cos(angulo);
+    var y = velocidad*Math.sin(angulo);
 
     canvas.width = canvas.width;
 

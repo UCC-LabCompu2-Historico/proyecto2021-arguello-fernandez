@@ -25,11 +25,20 @@
                 <div class="datos">
                     <label for="input_angulo">Ángulo:</label>
                     <input type="number" class="inputs" id="input_angulo" placeholder="Ingrese el Ángulo">
+                    <select id="unidadangulo" class="inputs">
+                        <option value="Grad">Grad</option>
+                        <option value="Rad">Rad</option>
+                    </select>
                     <label for="input_velocidad">Velocidad:</label>
                     <input type="number" class="inputs" id="input_velocidad" placeholder="Ingrese la Velocidad">
+                    <select id="unidadvelocidad" class="inputs">
+                        <option value="m/s">m/s</option>
+                        <option value="km/h">km/h</option>
+                    </select>
                 </div>
                 <div class="datos">
-                <button type="button" id="calcular" onclick="calculo()">CALCULAR!</button>
+                <button type="button" class="calcular" onclick="calculo()">CALCULAR!</button>
+                    <button type="button" class="calcular" onclick="calculo()">BORRAR!</button>
                 </div>
             </form>
         </div>
