@@ -38,13 +38,18 @@
                 </div>
                 <div class="datos">
                 <button type="button" class="calcular" onclick="calculo()">CALCULAR!</button>
-                    <button type="reset" class="calcular">BORRAR!</button>
+                    <button type="reset" class="calcular" onclick="borrar()">BORRAR!</button>
                 </div>
             </form>
         </div>
-        <canvas id="canvas" width="1265" height="445px">
+        <div class="contenedor">
+        <canvas id="canvas1" width="1265" height="445px">
             Tu navegador no soporta el tag de HTML5 canvas.
         </canvas>
+        <canvas id="canvas2" width="1265" height="445px">
+            Tu navegador no soporta el tag de HTML5 canvas.
+        </canvas>
+        </div>
         <div class="datos">
             <label for="altura">Altura Máxima:</label>
             <input type="number" class="inputs" id="altura" disabled>

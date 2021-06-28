@@ -71,9 +71,20 @@ footer {
     background-color: white;
 }
 
-#canvas {
+#canvas1 {
     background: url("Imagenes/fondoc.png"), linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
 
+}
+
+.contenedor {
+    position: relative;
+    width: 1265px;
+    height: 445px;
+}
+.contenedor canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .claseformula {
